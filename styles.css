@@ -225,3 +225,14 @@ button{
     font-weight: 500;
     display: block;
 }
+/* Services */
+.services-wrapper .card{
+    background-color: #152238 ;
+    cursor: pointer;
+    transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+    box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1) ;
+}
+.services-wrapper .card:hover{
+    box-shadow: 0px 2px 70px rgb(253 71 102/5%);
+    transform: translateY(-5px);
+}
